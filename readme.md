@@ -21,24 +21,20 @@ _Requires **python 3** and **git**_
 ```sh
 git clone https://github.com/skai2/DBDAutoSkillCheck.git
 cd DBDAutoSkillCheck
-
 ```
 2. Setup python virtual environment and requirements
 ```sh
 python -m venv venv
-venv/Scripts/activate
+venv\Scripts\activate
 pip install -r requirements.txt
-
 ```
 3. Run program
 ```sh
 python skillcheck/skillcheck.py
-
 ```
 OR If using multiple monitors:
 ```
 python skillcheck/skillcheck.py --monitor [MONITOR_NUMBER]
-
 ```
 
 ## Development Status
