@@ -30,11 +30,11 @@ pip install -r requirements.txt
 ```
 3. Run program
 ```sh
-python skillcheck/skillcheck.py
+python skillcheck\skillcheck.py
 ```
 OR If using multiple monitors:
 ```
-python skillcheck/skillcheck.py --monitor [MONITOR_NUMBER]
+python skillcheck\skillcheck.py --monitor [MONITOR_NUMBER]
 ```
 
 ## Development Status
