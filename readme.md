@@ -19,20 +19,26 @@ To any DBD and CV enthusiast devs out there, please feel free to experiment / ra
 _Requires **python 3** and **git**_
 1. Clone this repository and navigate to directory
 ```sh
-> git clone https://github.com/skai2/DBDAutoSkillCheck.git
-> cd DBDAutoSkillCheck
+git clone https://github.com/skai2/DBDAutoSkillCheck.git
+cd DBDAutoSkillCheck
+
 ```
 2. Setup python virtual environment and requirements
 ```sh
-> python -m venv venv
-> venv/Scripts/activate
-> pip install -r requirements.txt
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt
+
 ```
 3. Run program
 ```sh
-> python skillcheck/skillcheck.py
+python skillcheck/skillcheck.py
+
+```
 OR If using multiple monitors:
-> python skillcheck/skillcheck.py --monitor [MONITOR_NUMBER]
+```
+python skillcheck/skillcheck.py --monitor [MONITOR_NUMBER]
+
 ```
 
 ## Development Status
