@@ -1,0 +1,8 @@
+comtypes==1.1.14
+mss==7.0.1
+numpy==1.23.5
+opencv-python==4.6.0.66
+pip==22.0.4
+pynput==1.7.6
+setuptools==58.1.0
+six==1.16.0
