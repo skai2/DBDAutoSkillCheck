@@ -14,4 +14,3 @@ class Controller:
         sleep(delay)
         self.keyboard.press(keyboard.Key.space)
         self.keyboard.release(keyboard.Key.space)
-        sleep(2)
