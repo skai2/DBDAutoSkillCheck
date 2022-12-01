@@ -6,7 +6,7 @@ import numpy as np
 from screen import Screen
 
 
-def get_skillcheck(screen: Screen):
+def get_skillcheck_img(screen: Screen):
     """Grab skillcheck image from screen"""
     if screen.type == "WIDE":
         left = 890
